@@ -1,5 +1,6 @@
 import React from 'react';
-import NotificationButton from './Notification';
+import NotificationButton from './NotificationButton';
+import CreateButton from './CreateButton';
 import logo from '../assets/logo.png';
 
 
@@ -11,11 +12,6 @@ const TopBar = () => {
       {/* Logo */}
       <div className="flex items-center gap-2">
         <img src={logo} alt="Logo" className="h-10 w-10 rounded-full" />
-        {/* <img
-          src="https://via.placeholder.com/40"
-          alt="Ethio-Hype-Hub Logo"
-          className="h-10 w-10 rounded-full"
-        /> */}
         <span className="text-2xl font-bold text-gray-800">Ethio Hype Hub</span>
       </div>
 
@@ -34,7 +30,7 @@ const TopBar = () => {
           Home
         </button>
         <button className="text-gray-800 font-bold hover:text-blue-500">
-          Explore
+          <CreateButton/>
         </button>
         <NotificationButton/>
         <button className="text-gray-800 font-bold hover:text-blue-500">

@@ -1,7 +1,3 @@
-Here’s a concise and professional description for the README of your GitHub repository:
-
----
-
 # Ethio-Hype-Hub
 
 **Ethio-Hype-Hub** is a dynamic web-based platform designed to showcase and share trending topics such as fashion, food, drinks, slang, and more. Users can explore, like, and comment on posts in a Pinterest-inspired layout. This project is built with a modern tech stack to ensure scalability and user-friendly interactions.

@@ -26,7 +26,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Kalze1/ethio-hype-hub.git
    cd Ethio-Hype-Hub
    ```
 
